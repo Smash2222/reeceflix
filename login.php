@@ -20,24 +20,19 @@ if (isset($_POST["submitButton"])) {
         <div class="header">
             <img src="https://fontmeme.com/permalink/221117/b81ddace7dac8361622434c55cd86b81.png"
                  title="Logo" alt="Site logo">
-            <h3>Sign Up</h3>
+            <h3>Sign In</h3>
             <span>to continue to Reeceflix</span>
         </div>
 
         <form method="post">
 
-            <input type="text" name="firstName" placeholder="First name" required>
-            <input type="text" name="lastName" placeholder="Last name" required>
             <input type="text" name="username" placeholder="Username" required>
-            <input type="email" name="email" placeholder="Email" required>
-            <input type="email" name="email2" placeholder="Confirm email" required>
             <input type="password" name="password" placeholder="Password" required>
-            <input type="password" name="password2" placeholder="Confirm password" required>
             <input type="submit" name="submitButton" value="Submit">
 
         </form>
 
-        <a href="login.php" class="signInMessage">Already have an account? Sigh in here!</a>
+        <a href="register.php" class="signInMessage">Need an account? Sign up here!</a>
 
     </div>
 
